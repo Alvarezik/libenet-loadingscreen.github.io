@@ -28,6 +28,7 @@ Config.enableAnnouncements = true;
  */
 Config.announceMessages = [
   "DEV SERVER",
+  "LibeNet",
   "AGUTIN PIDOR"
 ];
 
