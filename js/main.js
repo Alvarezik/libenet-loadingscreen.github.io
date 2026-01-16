@@ -108,7 +108,7 @@ function loadAll() {
 
   // first time loading if DownloadingFile isn't called after some time
   setTimeout(function() {
-    debug("Проверка загрузки с первого раза.. " + downloadingFileCalled);
+    debug("Проверка загрузки " + downloadingFileCalled);
     if (downloadingFileCalled) {
       announce(
         "Вы впервые подключаетесь к этому серверу! — Пожалуйста, подождите, пока файлы загрузятся...",
